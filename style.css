@@ -1,0 +1,45 @@
+body {
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+.fonte-nav {
+    color: white;
+    text-decoration: none;
+    font-family: cousine;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.fonte-nav:hover {
+    color: rgb(158, 158, 255);
+}
+
+#nav-ambiente-de-julio {
+    text-align: end;
+    
+}
+
+.navbar-nav .nav-item {
+    display: flex;
+    float: none;
+    margin-right: 100px; /* Espaço entre os elementos */
+    align-items: center;
+}
+
+.navbar-nav .nav-item:last-child {
+    margin-right: 0; /* Remove a margem do último elemento */
+}
+
+.img-icone {
+    border-radius: 50%; /* Transforma a imagem em um círculo */
+    width: 50px; /* Largura da imagem */
+    height: 50px; /* Altura da imagem */
+    margin-left: 10px; /* Espaço entre a imagem e o texto */
+
+}
+
